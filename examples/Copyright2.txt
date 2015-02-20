@@ -1,0 +1,8 @@
+Copright2 - ASCII graphics with a hidden message
+
+use:
+
+spoon copyright2.sp /0% /1$ /q
+
+to see. Why isn't there a batch file? The special characters forbid it!
+

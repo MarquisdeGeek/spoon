@@ -1,0 +1,5 @@
+Happy Birthday - ASCII graphics with a hidden message
+
+This uses an EOF sequence to stop program execution. This allows the
+rest of the source to be filled with garbage to keep up the pretense.
+

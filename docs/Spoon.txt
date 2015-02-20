@@ -1,0 +1,14 @@
+Spoon Interpreter - v1.00
+Written by S.Goodwin 1998
+Code and Language based on BrainF***, by Urban Mueller
+
+Usage: spoon [/b /c /d /h /q /0 /1] <source filename>
+
+/b	Process Brain source, instead of Spoon
+/cx 	Convert program into C source file, called 'x'
+/d	Don't interpret source file
+/h	Help message
+/?	Help message
+/q	Hide banner
+/0x	Specify the '0' token as 'x'
+/1x	Specify the '1' token as 'x'

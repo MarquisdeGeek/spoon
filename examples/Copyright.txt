@@ -1,0 +1,13 @@
+Copright - ASCII graphics with a hidden message
+
+The original image came from an internet newsgroup. If it's yours
+please step forward!
+
+On a serious point, however, you could encrypt your name/handle/nick
+into an ASCII art image, and no one would know. Not only would they have
+to know that there was a message in the text, they would also need to 
+know the values for '0' and '1'. In this example, I've kept them as '0'
+and '1' to make a point.
+
+
+

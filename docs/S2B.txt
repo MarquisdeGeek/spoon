@@ -1,0 +1,31 @@
+Spoon <-> Brain Converter
+Written by S.Goodwin 1998
+
+Usage: spoon [/h /s /b /p /i /0 /1 /l] <source filename> [destination filename]
+
+/h	Help message
+/s	Convert to 'Spoon' (default)
+/b	Convert to 'Brain'
+/p	Pad destination
+/i	Ignore commented code
+/lx	Enfore constant line width of 'x' characters (Spoon files only)
+/0x	Specify the '0' token as 'x'
+/1x	Specify the '1' token as 'x'
+
+This program performs conversion between the two Esoteric languages of
+BrainF*** & Spoon.
+Both languages have identical syntax, only the tokens differs. Spoon uses
+Huffman encoded tokens in order to reduce the total number of different
+symbols to two: '0' and '1'.
+
+The mapping is:
+	+ 1
+	- 000
+	> 010
+	< 011
+	] 0011
+	[ 00100
+	. 001010
+	, 0010110
+	# 00101110
+	X 00101111 (exit program - not available in Brain)
