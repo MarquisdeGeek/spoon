@@ -2,6 +2,8 @@
 
 The esoteric language 'Spoon'. Created in 1998 by Steven Goodwin. (Who's, strangely, still proud of it!)
 
+It has been untouched since then. I'm including it in Github for whatever historical amusement may be found!
+
 ## Purpose
   'Spoon' is probably the most obsfucated language available. 
   It is certainly the one with the fewest number of tokens - two! 
@@ -102,7 +104,7 @@ characters that are not '1' or '0' are treated as comments and are ignored.
 
 There isn't one! You can not create a free form language with fewer tokens. It
 is possible, of course, to use the following table:
-
+```
        1   +
       11   -
      111   >
@@ -111,7 +113,7 @@ is possible, of course, to use the following table:
   111111   [
  1111111   .
 11111111   ,
-
+```
   ...which uses fewer tokens (1), but then you *need* a delimiter between them.
 
    I hope to have some free time in order to write a Windows GUI for Spoon, but
