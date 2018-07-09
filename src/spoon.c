@@ -15,8 +15,8 @@ void import_spoon_as_brain(FILE *f);
 int generate_c_code(char *fn, char *braincode);
 
 
-int  p, r, q;
-char a[5000], f[25000], b, o, *s=f;
+int  p, r, q, b;
+char a[5000], f[25000], o, *s=f;
 
 
 void interpret(char *c)
@@ -174,7 +174,7 @@ FILE *fp;
 
 void import_brain(FILE *fp)
 {
-	while( (b=getc(fp))>0 )
+	while( (b=getc(fp))!=EOF )
 		*s++=b;
 	*s=0;
 }
@@ -185,7 +185,7 @@ int curr_val = 0;
 int bits_count = 0;
 char ch;
 
-	while((b = getc(f))>0)
+	while((b = getc(f))!=EOF)
 		{
 		if (b == g_token0 || b == g_token1)
 			{
